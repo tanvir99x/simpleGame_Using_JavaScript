@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: darkslateblue;
+  color: white;
+  text-align: center;
+}
+
+.choice {
+  height: 200px;
+  height: 120px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.score_borad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+}
+
+#play {
+  color: white;
+  font-size: 30px;
+  background-color: black;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #081b31;
+}
+
+.score {
+  font-size: larger;
+}
